@@ -54,6 +54,33 @@ Técnicas: WordCloud, análise de frequência, mineração de texto.
 
 Observações: Apresenta visualizações para melhor interpretação dos dados.
 
+## Aula 10 - Análise de Sentimentos e Classificação de Textos
+Descrição: Aplicações e técnicas de análise de sentimentos em textos curtos.
+
+Objetivo: Demonstrar como classificar sentimentos utilizando algoritmos de aprendizado de máquina.
+
+Técnicas: Utilização da biblioteca NLTK com VADER, classificação com Naive Bayes e Árvores de Decisão, análise de polaridade e pontuação composta.
+
+Observações: Apresenta exemplos práticos com textos fictícios e avaliações de filmes, destacando o uso de modelos supervisionados e léxicos para identificação de sentimentos.
+
+## Aula 11 - Pipeline de Classificação de Texto
+Descrição: Construção de um pipeline completo para classificação de textos com técnicas de PLN.
+
+Objetivo: Aplicar os conceitos de Processamento de Linguagem Natural (PLN) para construir um pipeline completo de classificação de texto.
+
+Técnicas: Limpeza, tokenização, remoção de stopwords, stemming/lemmatização, vetorização com Bag of Words, TF-IDF e Word Embeddings; classificação com modelos supervisionados e avaliação com métricas como precisão e F1-score.
+
+Observações: O notebook enfatiza a comparação entre diferentes técnicas de representação textual e modelos, promovendo a análise crítica sobre desempenho e aplicação prática.
+
+## Aula 12 - Teste do Modelo com Novas Frases
+Descrição: Avaliação do desempenho do modelo de classificação de sentimentos usando frases inéditas.
+
+Objetivo: Implementar uma Rede Neural Recorrente (RNN) simples em Python para prever a próxima palavra em uma sequência de texto, utilizando a biblioteca TensorFlow/Keras e implementar uma Rede Long Short-Term Memory (LSTM) em Python para classificar o sentimento de frases como "positivo" ou "negativo", utilizando a biblioteca TensorFlow/Keras.
+
+Técnicas: Tokenização de entrada, padding de sequência, inferência com modelo LSTM, interpretação de probabilidades, mapeamento de classes.
+
+Observações: Ressaltar que erros de previsão podem indicar limitações no vocabulário, dados de treino insuficientes ou desequilíbrio nas classes. Mostrar como diagnósticos (como inspeção de probabilidades e vocabulário) ajudam a melhorar a performance.
+
 ## Projeto 01 - Análise Quantitativa de Corpus
 Descrição: Análise exploratória de corpus textual.
 
